@@ -57,6 +57,7 @@ transition: all 0.3s ease;
   letter-spacing: 0.02em;
   }
 
+  /*Change symbols of star and hearts on header*/
 .profile-page.profile-custom-css .card-header.starred::before {
   content: "🥂" !important;
   background: none !important;
@@ -172,6 +173,7 @@ font-size: 1em;
   box-sizing:border-box;
 }
 
+/*Blurbs/About Me Links Header*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-header {
   display:flex;
   justify-content:space-between;
@@ -179,6 +181,7 @@ font-size: 1em;
   margin-bottom:10px;
 }
 
+/*Blurbs/About Me Links Title*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-title {
   background: rgba(121, 60, 219, .85) !important;
   color:#fff;
@@ -187,12 +190,14 @@ font-size: 1em;
   font-weight:700;
 }
 
+/*Blurbs/About Me Links Grid*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-grid {
   display:grid;
   grid-template-columns: repeat(3, minmax(140px, 1fr));
   gap:10px;
 }
 
+/*Blurbs/About Me Links Button*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-item {
   display:flex;
   align-items:center;
@@ -206,11 +211,12 @@ font-size: 1em;
   min-height:44px;
 }
 
+/*Blurbs/About Me Links Button Label*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-label {
   color:#0f1ab0;
 }
 
-/* jork gif */
+/* Blurbs/About me bottom gif */
 .profile-page.profile-custom-css .mz-condensed-inline .jork-gif {
   display:flex;
   justify-content: center;
