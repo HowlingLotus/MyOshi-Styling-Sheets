@@ -4,7 +4,7 @@
 /* ========= CHANGES FOR THE ENTIRE PROFILE PAGE ========= */
 
 
-.profile-page.profile-custom-css {
+.profile-page.profile-custom-css * {
   /* ===== CUSTOM SMALL CURSOR ===== */
   cursor: url("https://drive.google.com/thumbnail?id=1dP7mSzBr0LJSKwOveLjmk2V-QAQcog35") 16 16, auto;
 
