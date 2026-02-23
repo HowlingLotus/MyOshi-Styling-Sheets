@@ -2,15 +2,12 @@
 /*Lotus Profile CSS Sheet */
 
 /* ========= CHANGES FOR THE ENTIRE PROFILE PAGE ========= */
-
-
-.profile-page.profile-custom-css * {
+.profile-page.profile-custom-css, .profile-page.profile-custom-css * {
   /* ===== CUSTOM SMALL CURSOR ===== */
   cursor: url("https://drive.google.com/thumbnail?id=1dP7mSzBr0LJSKwOveLjmk2V-QAQcog35") 16 16, auto;
 
   /*Font and Text Color Changes for most of the page*/
   font-family: Palatino, URW Palladio L, serif;
-  color: rgb(98, 0, 255);
 }
 
 /* ======PROFILE CARDS (BASE STYLE)=======*/
