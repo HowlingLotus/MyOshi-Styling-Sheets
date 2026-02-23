@@ -1,16 +1,16 @@
 
-/* ===== CUSTOM SMALL CURSOR ===== */
-.profile-page.profile-custom-css,
-.profile-page.profile-custom-css * {
-  cursor: url("https://drive.google.com/thumbnail?id=1dP7mSzBr0LJSKwOveLjmk2V-QAQcog35") 16 16, auto; 
-  /* change image link as you want; image can only be max size is 128x128 */
-}
+/*Lotus Profile CSS Sheet */
 
-/* ========= TEXT COLOR ========= */
+/* ========= CHANGES FOR THE ENTIRE PROFILE PAGE ========= */
 
-/* Changes most text color and font on the profile */
+
 .profile-page.profile-custom-css {
-color: rgb(98, 0, 255);
+  /* ===== CUSTOM SMALL CURSOR ===== */
+  cursor: url("https://drive.google.com/thumbnail?id=1dP7mSzBr0LJSKwOveLjmk2V-QAQcog35") 16 16, auto;
+
+  /*Font and Text Color Changes*/
+  font-family: Palatino, URW Palladio L, serif;
+  color: rgb(98, 0, 255);
 }
 
 
