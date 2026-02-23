@@ -64,7 +64,7 @@ transition: all 0.3s ease;
   filter: none !important;
   font-size: 12px;
 }
-.card-header.hearted::before {
+.profile-page.profile-custom-css .card-header.hearted::before {
   content: "✨" !important;
   background: none !important;
   filter: none !important;
@@ -213,7 +213,8 @@ font-size: 1em;
 
 /*Blurbs/About Me Hover Button*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-item:hover {
-  transform: translateY(-2px), transform 0.25s ease;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(160,180,160,0.25);
 }
 
 /*Blurbs/About Me Links Button Label*/
