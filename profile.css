@@ -51,7 +51,7 @@ transition: all 0.3s ease;
   color: #fff !important;
   font-weight: 700;
   letter-spacing: 0.02em;
-  }
+}
 
   /*Change symbols of star and hearts on header*/
 .profile-page.profile-custom-css .card-header.starred::before {
@@ -133,6 +133,12 @@ transition: all 0.3s ease;
 .profile-page.profile-custom-css [class*="friends"] a:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(160,180,160,0.25);
+}
+
+.profile-page.profile-custom-css .stats-table {
+  color: #e6f6ff !important; /* soft light blue for content */
+  font-weight: 400;
+  font-size: 1.1em;
 }
 
 /* ========= BLURBS / ABOUT ME ========= */
