@@ -211,6 +211,11 @@ font-size: 1em;
   min-height:44px;
 }
 
+/*Blurbs/About Me Hover Button*/
+.profile-page.profile-custom-css .mz-condensed-inline .mz-item:hover {
+  transform: translateY(-2px);
+}
+
 /*Blurbs/About Me Links Button Label*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-label {
   color:#0f1ab0;
