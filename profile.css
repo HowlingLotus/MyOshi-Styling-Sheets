@@ -213,7 +213,7 @@ font-size: 1em;
 
 /*Blurbs/About Me Hover Button*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-item:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px), transform 0.25s ease;
 }
 
 /*Blurbs/About Me Links Button Label*/
