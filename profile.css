@@ -14,28 +14,35 @@
 
 /* This targets all cards on your profile */
 .profile-page.profile-custom-css .card {
+  /* Makes the card background color */
+  background: rgba(73, 68, 188, .35);
 
-/* Makes the card background color */
-background: rgba(73, 68, 188, .35);
+  /* Blurs whatever is behind the card (glass effect) */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* required for some browsers */
 
-/* Blurs whatever is behind the card (glass effect) */
-backdrop-filter: blur(12px);
--webkit-backdrop-filter: blur(12px); /* required for some browsers */
+  /* Adds a dashed border */
+  border: 3px solid rgba(120, 220, 220, 0.4); /* medium thickness */
 
-/* Adds a dashed border */
-border: 3px solid rgba(120, 220, 220, 0.4); /* medium thickness */
+  /* Rounds the corners */
+  border-radius: 30px;
 
-/* Rounds the corners */
-border-radius: 30px;
+  /* Adds spacing inside the card
+  padding: 12px;  */
 
-/* Adds spacing inside the card
-padding: 12px;  */
+  /* Adds soft shadow so the card stands out */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
-/* Adds soft shadow so the card stands out */
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  /* Smooths hover animations */
+  transition: all 0.3s ease;
+}
 
-/* Smooths hover animations */
-transition: all 0.3s ease;
+/*Hover over card affect*/
+.profile-page.profile-custom-css .card:hover {
+  /* Effect 1: Lift the card */
+  transform: translateY(-2px);
+  /* Effect 2: Increase the shadow for depth */
+  box-shadow: 0 12px 20px rgba(0,0,0,0.4);
 }
 
 /* ==== CARD HEADERS==== */
@@ -65,14 +72,6 @@ transition: all 0.3s ease;
   background: none !important;
   filter: none !important;
   font-size: 12px;
-}
-
-/*Hover over card affect*/
-.profile-page.profile-custom-css .card:hover {
-  /* Effect 1: Lift the card */
-  transform: translateY(-2px);
-  /* Effect 2: Increase the shadow for depth */
-  box-shadow: 0 12px 20px rgba(0,0,0,0.4);
 }
 
 /* ========================= AVATAR – CIRCULAR FRAME ========================= */
@@ -132,7 +131,7 @@ transition: all 0.3s ease;
 .profile-page.profile-custom-css .friends-grid a:hover,
 .profile-page.profile-custom-css [class*="friends"] a:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(160,180,160,0.25);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
 .profile-page.profile-custom-css .stats-table {
@@ -167,8 +166,14 @@ transition: all 0.3s ease;
   font-weight:700;
   font-size:15px;
   text-decoration:none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.65);
-  transition:transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 3px 11px rgba(0, 0, 0, 0.25);
+  transition:transform .3s ease, box-shadow .2s ease;
+}
+
+.profile-page.profile-custom-css #twitchLiveButton:hover {
+  color:#3c3560;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
 /* .profile-page.profile-custom-css #twitchLiveButton .live {
@@ -237,7 +242,7 @@ transition: all 0.3s ease;
 /*Blurbs/About Me Hover Button*/
 .profile-page.profile-custom-css .mz-condensed-inline .mz-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(160,180,160,0.25);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
 /*Blurbs/About Me Links Button Label*/
