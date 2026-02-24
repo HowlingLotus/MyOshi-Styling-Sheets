@@ -158,6 +158,29 @@ transition: all 0.3s ease;
   font-size: 1.1em;
 }
 
+.profile-page.profile-custom-css #twitchLiveButton {
+  display:inline-block;
+  padding:12px 22px;
+  border: 4px dashed rgb(236, 223, 134);
+  border-radius:999px;
+  color:#ffffff;
+  font-weight:700;
+  font-size:15px;
+  text-decoration:none;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.65);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+
+.profile-page.profile-custom-css #twitchLiveButton .live {
+  background-color: #3a0a70;
+  color: white;
+}
+
+.profile-page.profile-custom-css #twitchLiveButton .offline {
+  background-color: #ADADAD;
+  color: #3E128A;
+}
+
 /* ========= BLURBS / ABOUT ME LINKS ========= ----- CSS by WinterCharmVT */
 .profile-page.profile-custom-css .mz-condensed-inline {
   width:100%;
