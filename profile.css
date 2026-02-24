@@ -171,7 +171,7 @@ transition: all 0.3s ease;
   transition:transform .2s ease, box-shadow .2s ease;
 }
 
-.profile-page.profile-custom-css #twitchLiveButton .live {
+/* .profile-page.profile-custom-css #twitchLiveButton .live {
   background-color: #3a0a70;
   color: white;
 }
@@ -179,7 +179,7 @@ transition: all 0.3s ease;
 .profile-page.profile-custom-css #twitchLiveButton .offline {
   background-color: #ADADAD;
   color: #3E128A;
-}
+} */
 
 /* ========= BLURBS / ABOUT ME LINKS ========= ----- CSS by WinterCharmVT */
 .profile-page.profile-custom-css .mz-condensed-inline {
