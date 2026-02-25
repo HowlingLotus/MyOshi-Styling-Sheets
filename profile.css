@@ -319,19 +319,20 @@
   0 10px 25px rgba(140, 110, 220, 0.18);
 }
 
+/*Comment Author name*/
 .profile-page.profile-custom-css #comments .comment-author-name {
   font-weight: 700;
   color: #5f4fa3;
 }
 
+/*Comment Content*/
 .profile-page.profile-custom-css #comments .comment-body {
   color: #3c3560;
   line-height: 1.45;
 }
 
-/* ✦ Comment Box ✦ */
+/* ✦ Comment Box for Adding Comment✦ */
 .profile-page.profile-custom-css #comments .add-comment {
-  background: rgba(255, 245, 250, 0.1);
   border-radius: 26px;
   border: none;
   padding: 16px;
@@ -341,10 +342,9 @@
   0 12px 28px rgba(140, 110, 220, 0.18);
 }
 
+/*Text Field for Adding Comment*/
 .profile-page.profile-custom-css textarea {
-  background: rgba(255,255,255,0.85) !important;
   border-radius: 16px;
   border: none;
-
   color: #3a335c;
 }
