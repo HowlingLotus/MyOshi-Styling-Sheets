@@ -21,7 +21,7 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px); /* required for some browsers */
 
-  /* Adds a dashed border */
+  /* Adds a border */
   border: 3px solid rgba(120, 220, 220, 0.4); /* medium thickness */
 
   /* Rounds the corners */
@@ -83,6 +83,22 @@
     border: 2px solid rgba(141, 75, 227, 0.85);
     padding: 4px;
     background: rgba(255,255,255,0.9);
+}
+
+/*Profile tagline*/
+.profile-page.profile-custom-css .profile-tagline {
+  color: #ffffff;
+}
+
+/*Profile Mood*/
+.profile-page.profile-custom-css .profile-mood, .profile-page.profile-custom-css .profile-url-box {
+  border-radius: 40px;
+}
+
+/*Profile Buttons*/
+.profile-page.profile-custom-css .profile-contact-links {
+  border-radius: 40px;
+  background: rgba(73, 68, 188, .35);
 }
 
 /* ========================= FRIENDS GRID – FLEX FIX ========================= */
