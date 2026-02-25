@@ -96,7 +96,7 @@
 }
 
 /*Profile Buttons*/
-.profile-page.profile-custom-css .profile-contact-links {
+.profile-page.profile-custom-css .profile-contact-links .contact-link {
   border-radius: 40px;
   background: rgba(73, 68, 188, .35);
 }
