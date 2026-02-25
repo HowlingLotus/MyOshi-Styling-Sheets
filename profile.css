@@ -90,9 +90,10 @@
   color: #ffffff;
 }
 
-/*Profile Mood*/
+/*Profile Mood and Url Box*/
 .profile-page.profile-custom-css .profile-mood, .profile-page.profile-custom-css .profile-url-box {
   border-radius: 40px;
+  background: rgba(73, 68, 188, .35);
 }
 
 /*Profile Buttons*/
