@@ -293,6 +293,7 @@
   transform: translateY(-2px); /* optional: small lift on hover */
 }
 
+/*Interest Section Title */
 .profile-page.profile-custom-css .interest-title {
   color: #f5d9ff !important; /* lavender-ish header color */
   font-weight: 600;
@@ -300,6 +301,7 @@
   text-align: left;
 }
 
+/*Interest Section Content */
 .profile-page.profile-custom-css .interest-content {
   color: #e6f6ff !important; /* soft light blue for content */
   font-weight: 400;
